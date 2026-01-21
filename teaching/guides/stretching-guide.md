@@ -1,7 +1,7 @@
-# Badminton Cool-down Guide: Recovery After Play
+# Badminton Stretching Guide: Recovery After Play
 
-## Why Cool-down Matters
-A proper cool-down helps your body transition from high-intensity activity back to a resting state. It promotes recovery, reduces muscle soreness (DOMS), prevents blood pooling in the limbs, and improves long-term flexibility. Skipping cool-down can lead to stiffness, prolonged soreness, and increased injury risk in future sessions.
+## Why Stretching Matters
+A proper stretching helps your body transition from high-intensity activity back to a resting state. It promotes recovery, reduces muscle soreness (DOMS), prevents blood pooling in the limbs, and improves long-term flexibility. Skipping stretching can lead to stiffness, prolonged soreness, and increased injury risk in future sessions.
 
 **Recommended Duration**: 10-15 minutes after play.
 
@@ -87,7 +87,7 @@ A proper cool-down helps your body transition from high-intensity activity back 
 ---
 
 ## Common Mistakes to Avoid
-1.  **Skipping cool-down entirely**: "I'll just go home and rest" leads to more soreness tomorrow.
+1.  **Skipping stretching entirely**: "I'll just go home and rest" leads to more soreness tomorrow.
 2.  **Stretching cold muscles**: Always do light activity BEFORE static stretching.
 3.  **Bouncing during stretches**: This can cause micro-tears. Hold steady.
 4.  **Rushing through it**: Take your time. This is recovery, not another workout.
@@ -96,7 +96,7 @@ A proper cool-down helps your body transition from high-intensity activity back 
 ---
 ---
 
-# 羽毛球冷身指南：运动后的恢复
+# 羽毛球las指南：运动后的恢复
 
 ## 为什么冷身很重要
 正确的冷身可以帮助身体从高强度活动状态平稳过渡到休息状态。它能促进恢复、减少延迟性肌肉酸痛 (DOMS)、防止血液在四肢淤积，并改善长期柔韧性。跳过冷身可能导致肌肉僵硬、持续酸痛，并增加未来训练中的受伤风险。

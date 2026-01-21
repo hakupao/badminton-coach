@@ -1,0 +1,115 @@
+{
+  "slug": "lesson-01-foundation",
+  "title": "Lesson 01 - The Foundation",
+  "level": "Beginner",
+  "durationMin": 100,
+  "summary": "Build safe habits, correct grip, ready position, and forward lunge mechanics.",
+  "accent": "#e76f51",
+  "goals": [
+    "Establish a safe learning environment.",
+    "Master the correct forehand grip (shake-hands grip).",
+    "Understand the basic ready position.",
+    "Learn forward lunge mechanics to prevent injury."
+  ],
+  "structure": [
+    {
+      "title": "Introduction & Warm-up (15 min)",
+      "items": [
+        "Safety briefing: non-marking shoes, check slippery spots, avoid collisions.",
+        "Joint mobilization: neck tilts and turns (skip full rotations), shoulder rolls, wrist rotations, hip circles, knee rotations, ankle rolls.",
+        "Light jogging or skipping (2-3 minutes)."
+      ]
+    },
+    {
+      "title": "Fundamental Technique: Grip & Stance (25 min)",
+      "items": [
+        "Forehand grip: hold the racket shaft with the non-racket hand, shake hands with the handle, V-shape between thumb and index finger.",
+        "Checkpoints: feel the bevels, leave a gap between palm and handle.",
+        "Ready position: feet shoulder-width apart, knees slightly bent, racket up in front, weight on the balls of the feet."
+      ]
+    },
+    {
+      "title": "Ball Confidence & Coordination (20 min)",
+      "items": [
+        "Shuttle taps to keep the shuttle in the air at eye level.",
+        "Pick up the shuttle from the floor with the racket.",
+        "Simple underhand feed and gentle lift over the net."
+      ]
+    },
+    {
+      "title": "Footwork Basics: The Lunge (20 min)",
+      "items": [
+        "Step forward with the racket leg.",
+        "Heel lands first, then roll to toe.",
+        "Front heel stays flat to load the glute.",
+        "Non-racket foot drags lightly as a brake."
+      ]
+    },
+    {
+      "title": "Fun Game: Bucket Challenge (10 min)",
+      "items": [
+        "Place a box or bucket on the service line.",
+        "Serve or toss underhand to land the shuttle in the bucket.",
+        "Focus on touch and control."
+      ]
+    },
+    {
+      "title": "Cool-down & Debrief (10 min)",
+      "items": [
+        "Stretch calves, quads, and forearms.",
+        "Recap: grip quality affects everything else.",
+        "Homework: practice switching to the shake-hands grip."
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "name": "Shuttle taps",
+      "durationMin": 7,
+      "focus": ["touch", "coordination"],
+      "notes": [
+        "Keep the shuttle at eye level.",
+        "Use a relaxed forehand grip."
+      ]
+    },
+    {
+      "name": "Pick up the shuttle",
+      "durationMin": 6,
+      "focus": ["control", "confidence"],
+      "notes": [
+        "Scoop the shuttle without rushing.",
+        "Keep the wrist relaxed."
+      ]
+    },
+    {
+      "name": "Simple underhand feed",
+      "durationMin": 7,
+      "focus": ["timing", "contact point"],
+      "notes": [
+        "Lift gently with forearm rotation.",
+        "Avoid big arm swings."
+      ]
+    },
+    {
+      "name": "Bucket challenge",
+      "durationMin": 10,
+      "focus": ["touch", "control"],
+      "notes": [
+        "Aim for consistency over power.",
+        "Reset after each attempt."
+      ]
+    }
+  ],
+  "coachingNotes": [
+    "Reinforce the V-shape grip and the gap between palm and handle.",
+    "Keep the ready position relaxed but alert.",
+    "Front heel stays flat to protect the knee and load the glute."
+  ],
+  "safety": [
+    "Wear non-marking shoes and check for slippery spots.",
+    "Skip full neck rotations during warm-up.",
+    "Control knee alignment during lunges."
+  ],
+  "equipment": ["Shuttles", "Rackets", "Bucket or box"],
+  "tags": ["foundation", "grip", "ready-position", "lunge", "beginner"]
+}

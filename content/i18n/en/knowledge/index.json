@@ -1,0 +1,85 @@
+{
+  "updated": "2026-01-21",
+  "categories": [
+    {
+      "id": "warm-up",
+      "title": "Warm-up",
+      "summary": "Prep routines and activation flows.",
+      "items": [
+        {
+          "slug": "warm-up-guide",
+          "title": "Warm-up Guide",
+          "summary": "A 10-15 minute warm-up flow to prepare joints and reduce injury risk.",
+          "tags": [
+            "warm-up",
+            "mobility",
+            "activation"
+          ],
+          "accent": "#e76f51",
+          "path": "knowledge/warm-up/warm-up-guide.json"
+        }
+      ]
+    },
+    {
+      "id": "footwork",
+      "title": "Footwork",
+      "summary": "Timing, landing, and base recovery.",
+      "items": [
+        {
+          "slug": "split-step-basics",
+          "title": "Split-step basics",
+          "summary": "The timing cue that unlocks faster first steps.",
+          "tags": [
+            "timing",
+            "landing"
+          ],
+          "accent": "#f4a261",
+          "path": "knowledge/footwork/split-step-basics.json"
+        }
+      ]
+    },
+    {
+      "id": "technique",
+      "title": "Technique",
+      "summary": "Grip and stroke fundamentals.",
+      "items": [
+        {
+          "slug": "forehand-grip-basics",
+          "title": "Forehand grip basics",
+          "summary": "Neutral grip, stable contact, relaxed control.",
+          "tags": [
+            "grip",
+            "control"
+          ],
+          "accent": "#2a9d8f",
+          "path": "knowledge/technique/forehand-grip-basics.json"
+        }
+      ]
+    },
+    {
+      "id": "stretching",
+      "title": "Stretching",
+      "summary": "Cooldown patterns and flexibility work.",
+      "items": [
+        {
+          "slug": "stretching-guide",
+          "title": "Stretching Guide",
+          "summary": "Post-play recovery routine for flexibility and soreness relief.",
+          "tags": [
+            "stretching",
+            "recovery",
+            "flexibility"
+          ],
+          "accent": "#6a994e",
+          "path": "knowledge/stretching/stretching-guide.json"
+        }
+      ]
+    },
+    {
+      "id": "glossary",
+      "title": "Glossary",
+      "summary": "Key terms and coaching cues.",
+      "items": []
+    }
+  ]
+}

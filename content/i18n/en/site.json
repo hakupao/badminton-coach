@@ -1,0 +1,67 @@
+{
+  "title": "Badminton Coach",
+  "tagline": "Train with intent. Move with clarity.",
+  "description": "A data-driven coaching notebook for badminton fundamentals. Update JSON, and the site updates.",
+  "cta": {
+    "label": "Explore courses",
+    "href": "#courses"
+  },
+  "highlights": [
+    {
+      "label": "Focus",
+      "value": "Footwork, grip, timing"
+    },
+    {
+      "label": "Session",
+      "value": "60-90 minutes"
+    },
+    {
+      "label": "Audience",
+      "value": "Beginner to intermediate"
+    }
+  ],
+  "ui": {
+    "navCourses": "Courses",
+    "navKnowledge": "Knowledge",
+    "navAllCourses": "All courses",
+    "navAllTopics": "All topics",
+    "navStartTraining": "Start Training",
+    "heroEyebrow": "Training framework",
+    "heroSecondaryCta": "Open knowledge",
+    "heroPanelTitle": "Session format",
+    "heroPanelItems": [
+      "Warm-up to unlock movement.",
+      "Skill focus with one clear cue.",
+      "Drill block to reinforce timing.",
+      "Review and cool down."
+    ],
+    "coursesEyebrow": "Courses",
+    "coursesTitle": "Practice plans you can reuse",
+    "coursesDescription": "Each course is a complete session with goals, drills, and coaching notes.",
+    "knowledgeEyebrow": "Knowledge",
+    "knowledgeTitle": "Short reads for quick reminders",
+    "knowledgeDescription": "Use the knowledge cards to reinforce technique and safety cues.",
+    "courseEyebrow": "Course",
+    "courseGoalsTitle": "Focus goals",
+    "knowledgeQuickTitle": "Quick recall",
+    "courseCountLabel": "courses",
+    "topicCountLabel": "topics",
+    "durationUnit": "min",
+    "sectionStructureTitle": "Session structure",
+    "sectionDrillsTitle": "Drills",
+    "sectionCoachingNotesTitle": "Coaching notes",
+    "sectionSafetyTitle": "Safety",
+    "sectionEquipmentTitle": "Equipment",
+    "metaCategoryPrefix": "Category:",
+    "metaUpdatedPrefix": "Updated:",
+    "errorCourses": "Unable to load courses.",
+    "errorCourseNotFound": "Course not found.",
+    "errorCourseLoad": "Unable to load the course.",
+    "errorTopicsNotFound": "Topic not found.",
+    "errorTopicLoad": "Unable to load the topic.",
+    "errorBackHome": "Back to home",
+    "errorSeeCourses": "See all courses",
+    "errorSeeTopics": "See all topics"
+  },
+  "footerNote": "Edit content in /content/i18n and keep the UI lightweight."
+}

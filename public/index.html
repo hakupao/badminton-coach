@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Badminton Coach</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body data-page="home" data-content-base="/content/i18n">
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html" data-site-title data-lang-link>Badminton Coach</a>
+        <nav class="nav-links">
+          <a href="#courses" data-ui="navCourses">Courses</a>
+          <a href="#knowledge" data-ui="navKnowledge">Knowledge</a>
+        </nav>
+        <div class="lang-switch" aria-label="Language">
+          <a class="lang-link" data-lang-toggle="zh" href="?lang=zh">ZH</a>
+          <a class="lang-link" data-lang-toggle="en" href="?lang=en">EN</a>
+        </div>
+        <a class="nav-cta" href="#courses" data-ui="navStartTraining">Start Training</a>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div class="hero-content reveal">
+          <p class="eyebrow" data-ui="heroEyebrow">Training framework</p>
+          <h1 data-site-tagline>Train with intent. Move with clarity.</h1>
+          <p data-site-description>
+            A data-driven coaching notebook for badminton fundamentals. Update JSON, and the site updates.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" data-site-cta href="#courses">Explore courses</a>
+            <a class="btn ghost" href="#knowledge" data-ui="heroSecondaryCta">Open knowledge</a>
+          </div>
+        </div>
+        <div class="hero-panel reveal">
+          <div class="highlight-grid" id="highlight-list"></div>
+          <div class="hero-note">
+            <h3 data-ui="heroPanelTitle">Session format</h3>
+            <ul id="hero-panel-list">
+              <li>Warm-up to unlock movement.</li>
+              <li>Skill focus with one clear cue.</li>
+              <li>Drill block to reinforce timing.</li>
+              <li>Review and cool down.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="courses">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow" data-ui="coursesEyebrow">Courses</p>
+            <h2 data-ui="coursesTitle">Practice plans you can reuse</h2>
+            <p data-ui="coursesDescription">Each course is a complete session with goals, drills, and coaching notes.</p>
+          </div>
+          <span class="pill" id="course-count">0 courses</span>
+        </div>
+        <div class="card-grid" id="course-list"></div>
+      </section>
+
+      <section class="section" id="knowledge">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow" data-ui="knowledgeEyebrow">Knowledge</p>
+            <h2 data-ui="knowledgeTitle">Short reads for quick reminders</h2>
+            <p data-ui="knowledgeDescription">Use the knowledge cards to reinforce technique and safety cues.</p>
+          </div>
+          <span class="pill" id="knowledge-count">0 topics</span>
+        </div>
+        <div id="knowledge-list"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <h3 data-site-title>Badminton Coach</h3>
+          <p data-site-footer>Edit content in /content/i18n and keep the UI lightweight.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#courses" data-ui="navCourses">Courses</a>
+          <a href="#knowledge" data-ui="navKnowledge">Knowledge</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/app.js" defer></script>
+  </body>
+</html>
