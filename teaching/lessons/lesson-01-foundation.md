@@ -55,7 +55,7 @@
     *   Try to serve (underhand) or toss the shuttle into the bucket.
     *   Focuses on touch and control rather than power.
 
-### 6. Cool-down & Debrief (10 Minutes)
+### 6. Stretching & Debrief (10 Minutes)
 *   **Stretching**: Focus on calves, quads, and forearms.
 *   **Debrief**: Recap the importance of the Grip. "If the grip is wrong, everything else will be harder."
 *   **Homework**: Practice changing from relaxed to "Shake-hands" grip while watching TV.
@@ -119,7 +119,7 @@
     *   尝试用下手发球或抛球的方式，将球打入桶中。
     *   此游戏专注于手感控制，而非力量。
 
-### 6. 冷身与总结 (10 分钟)
+### 6. 拉伸与总结 (10 分钟)
 *   **拉伸**: 重点放松小腿、大腿前侧（股四头肌）和前臂。
 *   **总结**: 重申握拍的重要性。“握拍不对，事倍功半。”
 *   **家庭作业**: 在看电视时练习从放松状态快速切换到“握手式”握拍。

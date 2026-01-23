@@ -32,10 +32,10 @@
     },
     {
       "slug": "lesson-01-foundation",
-      "title": "Lesson 01 - The Foundation",
+      "title": "January 24, 2026 - Foundations: Build Proper Badminton Habits",
       "level": "Beginner",
       "durationMin": 100,
-      "summary": "Build safe habits, correct grip, ready position, and forward lunge mechanics.",
+      "summary": "Establish safe habits, correct grip, ready position, and forward net-lunge mechanics.",
       "tags": [
         "foundation",
         "grip",
@@ -44,7 +44,7 @@
         "beginner"
       ],
       "accent": "#e76f51",
-      "path": "course/2026/lesson-01-foundation.json"
+      "path": "course/2026/20260124-lesson.json"
     }
   ]
 }

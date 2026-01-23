@@ -41,7 +41,7 @@ This plan outlines the structure of a standard 2-hour training session designed 
     *   Half-court singles or cooperative rallies (aiming for longest rally).
     *   "King of the Court" (simplified rules).
 
-### 6. Cool-down & Stretching (10 Minutes)
+### 6. Stretching & Stretching (10 Minutes)
 *   **Goal**: Aid recovery and flexibility.
 *   **Activities**:
     *   Static stretching (hamstrings, calves, shoulders, forearms).
@@ -92,7 +92,7 @@ This plan outlines the structure of a standard 2-hour training session designed 
     *   半场单打或合作多拍（目标是尽量多回合不失误）。
     *   “擂台赛” (简化规则)。
 
-### 6. 冷身与拉伸 (10 分钟)
+### 6. 拉伸与拉伸 (10 分钟)
 *   **目标**: 帮助恢复，提升柔韧性。
 *   **活动**:
     *   静态拉伸（大腿后侧、小腿、肩膀、前臂）。

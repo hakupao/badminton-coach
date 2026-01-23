@@ -32,7 +32,7 @@
     },
     {
       "slug": "lesson-01-foundation",
-      "title": "第01课：夯实基础",
+      "title": "2026年1月24日 - 基础篇：建立正确的羽毛球习惯",
       "level": "初学",
       "durationMin": 100,
       "summary": "建立安全习惯、正确握拍、准备姿势与上网跨步动作。",
@@ -44,7 +44,7 @@
         "初学"
       ],
       "accent": "#e76f51",
-      "path": "course/2026/lesson-01-foundation.json"
+      "path": "course/2026/20260124-lesson.json"
     }
   ]
 }
