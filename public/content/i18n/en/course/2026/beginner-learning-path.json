@@ -1,0 +1,48 @@
+{
+  "slug": "beginner-learning-path",
+  "title": "Systematic Learning Path for Beginners",
+  "level": "Beginner",
+  "summary": "A 0-12 month roadmap balancing racket skills and footwork progression.",
+  "accent": "#264653",
+  "goals": [
+    "Build safe, correct habits early.",
+    "Develop hands and legs in parallel.",
+    "Progress through phases with clear focus."
+  ],
+  "structure": [
+    {
+      "title": "Phase 1: The Foundation (0-3 months)",
+      "items": [
+        "Grip mastery: neutral grip, thumb grip, smooth transitions.",
+        "Net play basics: net lift and net shot contact point.",
+        "Basic service: low serve and high serve mechanics.",
+        "Ready position and split step base.",
+        "Front court movement: lunge, chasse + lunge, recovery.",
+        "Split step timing on opponent contact."
+      ]
+    },
+    {
+      "title": "Phase 2: Overhead Basics & Rear Court (3-6 months)",
+      "items": [
+        "Overhead forehand: high clear with pronation and high contact point.",
+        "Drop shot with the same preparation as clear.",
+        "Drive: flat exchanges across mid-court.",
+        "Basic smash: standing accuracy before power.",
+        "Rear court movement: scissor kick, backward chasse, optional China jump.",
+        "Mid-court movement and flow between front and rear."
+      ]
+    },
+    {
+      "title": "Phase 3: Advanced Skills & Tactics (6-12 months)",
+      "items": [
+        "Backhand overhead: clear and drop.",
+        "Advanced net game: cross-court net shots and net kill.",
+        "Deception: consistent preparation for clear, drop, smash; slicing.",
+        "Full court coverage: 6-corner footwork drills.",
+        "Adjustment steps before contact.",
+        "Explosive recovery back to base."
+      ]
+    }
+  ],
+  "tags": ["learning-path", "beginner", "progression", "footwork", "technique"]
+}

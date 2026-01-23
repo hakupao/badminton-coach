@@ -4,7 +4,7 @@
   const byId = (id) => document.getElementById(id);
   let revealObserver = null;
   const supportedLangs = ["en", "zh"];
-  let currentLang = "en";
+  let currentLang = "zh";
   let uiText = {};
 
   const normalizeLang = (value) => {
@@ -24,15 +24,13 @@
   const resolveLang = () => {
     const urlLang = normalizeLang(new URLSearchParams(window.location.search).get("lang"));
     const storedLang = getStoredLang();
-    const browserLang = normalizeLang((navigator.language || "").split("-")[0]);
     if (urlLang) return urlLang;
     if (storedLang) return storedLang;
-    if (browserLang === "zh") return "zh";
-    return "en";
+    return "zh";
   };
 
   const setLanguage = (lang) => {
-    const clean = normalizeLang(lang) || "en";
+    const clean = normalizeLang(lang) || "zh";
     currentLang = clean;
     document.documentElement.lang = clean;
     contentBase = `${baseRoot.replace(/\/$/, "")}/${clean}`;
@@ -181,6 +179,9 @@
     setText("[data-site-tagline]", site.tagline);
     setText("[data-site-description]", site.description);
     setText("[data-site-footer]", site.footerNote);
+    if (site.title) {
+      document.title = site.title;
+    }
 
     if (site.cta) {
       document.querySelectorAll("[data-site-cta]").forEach((el) => {

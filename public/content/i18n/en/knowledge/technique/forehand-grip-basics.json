@@ -1,0 +1,44 @@
+{
+  "slug": "forehand-grip-basics",
+  "title": "Forehand grip basics",
+  "summary": "A relaxed, neutral grip keeps shots accurate and reduces strain.",
+  "accent": "#2a9d8f",
+  "tags": ["grip", "control"],
+  "sections": [
+    {
+      "title": "Key points",
+      "items": [
+        "V-shape formed by thumb and index points to the side bevel.",
+        "Hold the handle like a handshake, not a squeeze.",
+        "Contact the shuttle slightly in front of the body."
+      ]
+    },
+    {
+      "title": "Steps",
+      "items": [
+        "Place the thumb lightly on the side of the handle.",
+        "Relax the last three fingers until the swing starts.",
+        "Squeeze briefly at impact, then relax again."
+      ]
+    },
+    {
+      "title": "Common mistakes",
+      "items": [
+        "Thumb on top of the handle.",
+        "Constant tight grip throughout the swing.",
+        "Contact too late near the body."
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "name": "Grip check shadow",
+      "durationMin": 5,
+      "focus": ["grip", "relaxation"],
+      "notes": [
+        "Pause to check the V-shape every 5 reps.",
+        "Keep shoulders loose."
+      ]
+    }
+  ]
+}

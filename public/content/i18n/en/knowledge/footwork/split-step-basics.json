@@ -1,0 +1,44 @@
+{
+  "slug": "split-step-basics",
+  "title": "Split-step basics",
+  "summary": "Split-step is the timing cue that loads your legs for a fast first move.",
+  "accent": "#f4a261",
+  "tags": ["timing", "landing"],
+  "sections": [
+    {
+      "title": "Key points",
+      "items": [
+        "Start the split as the opponent strikes the shuttle.",
+        "Land on the balls of the feet with soft knees.",
+        "Keep the chest tall and hips low."
+      ]
+    },
+    {
+      "title": "Steps",
+      "items": [
+        "Prepare in neutral base stance.",
+        "Small hop as the opponent contacts the shuttle.",
+        "Land softly, then push toward the target corner."
+      ]
+    },
+    {
+      "title": "Common mistakes",
+      "items": [
+        "Landing with straight legs.",
+        "Jumping too high and losing timing.",
+        "Leaning forward before landing."
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "name": "Clap timing",
+      "durationMin": 6,
+      "focus": ["timing"],
+      "notes": [
+        "Partner claps to cue landing.",
+        "Keep the hop small and quick."
+      ]
+    }
+  ]
+}

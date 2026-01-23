@@ -1,0 +1,67 @@
+{
+  "title": "羽毛球教练",
+  "tagline": "带着目标训练，移动更清晰。",
+  "description": "数据驱动的羽毛球基础训练笔记。",
+  "cta": {
+    "label": "查看课程",
+    "href": "#courses"
+  },
+  "highlights": [
+    {
+      "label": "重点",
+      "value": "步伐、握拍、节奏"
+    },
+    {
+      "label": "时长",
+      "value": "60-90 分钟"
+    },
+    {
+      "label": "人群",
+      "value": "初学到中级"
+    }
+  ],
+  "footerNote": "内容免费开放，欢迎分享转载。",
+  "ui": {
+    "navCourses": "课程",
+    "navKnowledge": "知识",
+    "navAllCourses": "全部课程",
+    "navAllTopics": "全部主题",
+    "navStartTraining": "开始训练",
+    "heroEyebrow": "训练框架",
+    "heroSecondaryCta": "知识卡片",
+    "heroPanelTitle": "课程结构",
+    "heroPanelItems": [
+      "热身激活身体。",
+      "锁定一个关键要点。",
+      "练习段巩固节奏。",
+      "复盘与放松。"
+    ],
+    "coursesEyebrow": "课程",
+    "coursesTitle": "可复用的训练方案",
+    "coursesDescription": "每节课包含目标、练习与教练提示。",
+    "knowledgeEyebrow": "知识",
+    "knowledgeTitle": "简短清晰的提醒",
+    "knowledgeDescription": "用知识卡片强化技术与安全提示。",
+    "courseEyebrow": "课程",
+    "courseGoalsTitle": "训练目标",
+    "knowledgeQuickTitle": "快速要点",
+    "sectionStructureTitle": "课程结构",
+    "sectionDrillsTitle": "练习",
+    "sectionCoachingNotesTitle": "教练提示",
+    "sectionSafetyTitle": "安全",
+    "sectionEquipmentTitle": "器材",
+    "metaCategoryPrefix": "分类：",
+    "metaUpdatedPrefix": "更新：",
+    "errorCourses": "课程加载失败。",
+    "errorCourseNotFound": "未找到课程。",
+    "errorCourseLoad": "无法加载课程。",
+    "errorTopicsNotFound": "未找到主题。",
+    "errorTopicLoad": "无法加载主题。",
+    "errorBackHome": "返回首页",
+    "errorSeeCourses": "查看全部课程",
+    "errorSeeTopics": "查看全部主题",
+    "courseCountLabel": "课程",
+    "topicCountLabel": "主题",
+    "durationUnit": "分钟"
+  }
+}

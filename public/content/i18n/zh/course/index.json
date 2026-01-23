@@ -1,0 +1,50 @@
+{
+  "updated": "2026-01-21",
+  "items": [
+    {
+      "slug": "adult-beginner-session-structure",
+      "title": "成人初学者课程结构",
+      "level": "初学",
+      "durationMin": 120,
+      "summary": "一套 2 小时课程结构，强调防伤、基础动作与乐趣。",
+      "tags": [
+        "课程结构",
+        "初学",
+        "防伤"
+      ],
+      "accent": "#457b9d",
+      "path": "course/2026/adult-beginner-session-structure.json"
+    },
+    {
+      "slug": "beginner-learning-path",
+      "title": "羽毛球零基础系统学习路径",
+      "level": "初学",
+      "summary": "0-12 个月路线图，强调手法与步伐并行发展。",
+      "tags": [
+        "学习路径",
+        "初学",
+        "进阶",
+        "步伐",
+        "技术"
+      ],
+      "accent": "#264653",
+      "path": "course/2026/beginner-learning-path.json"
+    },
+    {
+      "slug": "lesson-01-foundation",
+      "title": "2026年1月24日 - 基础篇：建立正确的羽毛球习惯",
+      "level": "初学",
+      "durationMin": 100,
+      "summary": "建立安全习惯、正确握拍、准备姿势与上网跨步动作。",
+      "tags": [
+        "基础",
+        "握拍",
+        "准备姿势",
+        "跨步",
+        "初学"
+      ],
+      "accent": "#e76f51",
+      "path": "course/2026/20260124-lesson.json"
+    }
+  ]
+}

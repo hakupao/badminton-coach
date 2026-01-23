@@ -1,0 +1,50 @@
+{
+  "updated": "2026-01-21",
+  "items": [
+    {
+      "slug": "adult-beginner-session-structure",
+      "title": "Adult Beginner Session Structure",
+      "level": "Beginner",
+      "durationMin": 120,
+      "summary": "A 2-hour session structure focused on injury prevention, fundamentals, and enjoyment.",
+      "tags": [
+        "session",
+        "beginner",
+        "injury-prevention"
+      ],
+      "accent": "#457b9d",
+      "path": "course/2026/adult-beginner-session-structure.json"
+    },
+    {
+      "slug": "beginner-learning-path",
+      "title": "Systematic Learning Path for Beginners",
+      "level": "Beginner",
+      "summary": "A 0-12 month roadmap balancing racket skills and footwork progression.",
+      "tags": [
+        "learning-path",
+        "beginner",
+        "progression",
+        "footwork",
+        "technique"
+      ],
+      "accent": "#264653",
+      "path": "course/2026/beginner-learning-path.json"
+    },
+    {
+      "slug": "lesson-01-foundation",
+      "title": "January 24, 2026 - Foundations: Build Proper Badminton Habits",
+      "level": "Beginner",
+      "durationMin": 100,
+      "summary": "Establish safe habits, correct grip, ready position, and forward net-lunge mechanics.",
+      "tags": [
+        "foundation",
+        "grip",
+        "ready-position",
+        "lunge",
+        "beginner"
+      ],
+      "accent": "#e76f51",
+      "path": "course/2026/20260124-lesson.json"
+    }
+  ]
+}

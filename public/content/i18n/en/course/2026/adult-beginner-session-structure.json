@@ -1,0 +1,106 @@
+{
+  "slug": "adult-beginner-session-structure",
+  "title": "Adult Beginner Session Structure",
+  "level": "Beginner",
+  "durationMin": 120,
+  "summary": "A 2-hour session structure focused on injury prevention, fundamentals, and enjoyment.",
+  "accent": "#457b9d",
+  "goals": [
+    "Reduce injury risk through safe preparation.",
+    "Introduce one focused technique per session.",
+    "Build muscle memory with multi-shuttle repetition.",
+    "Learn basic footwork for efficient movement.",
+    "Apply skills in a low-pressure game setting."
+  ],
+  "structure": [
+    {
+      "title": "Warm-up & Activation (15 min)",
+      "items": [
+        "Light jogging or skipping to raise the pulse.",
+        "Dynamic stretching: arm circles, leg swings, torso twists.",
+        "Wrist and ankle mobility drills.",
+        "Emphasize smooth movements; avoid sudden jerks."
+      ]
+    },
+    {
+      "title": "Fundamental Technique Instruction (20 min)",
+      "items": [
+        "Introduce one specific skill (e.g., forehand grip and high serve).",
+        "Demonstrate the V-shape grip.",
+        "Show the swing path without the shuttle.",
+        "Explain the why and how; players shadow-swing with corrections."
+      ]
+    },
+    {
+      "title": "Multi-shuttle Drills / Skill Practice (40 min)",
+      "items": [
+        "Static feeds to a target area.",
+        "Focus on contact point, timing, and grip transition.",
+        "Rotate players frequently for age-appropriate rest."
+      ]
+    },
+    {
+      "title": "Footwork & Movement Basics (20 min)",
+      "items": [
+        "Chasse step side-to-side.",
+        "Lunging technique with knee protection.",
+        "Slow shadow footwork to the 4 corners."
+      ]
+    },
+    {
+      "title": "Fun Games / Controlled Sparring (15 min)",
+      "items": [
+        "Half-court singles or cooperative rallies.",
+        "\"King of the Court\" with simplified rules."
+      ]
+    },
+    {
+      "title": "Stretching & Stretching (10 min)",
+      "items": [
+        "Static stretching for hamstrings, calves, shoulders, and forearms.",
+        "Debrief and Q&A."
+      ]
+    }
+  ],
+  "drills": [
+    {
+      "name": "Static multi-shuttle feed",
+      "durationMin": 15,
+      "focus": ["contact point", "timing"],
+      "notes": [
+        "Feed to a fixed target area.",
+        "Keep swings relaxed and repeatable."
+      ]
+    },
+    {
+      "name": "Four-corner shadow footwork",
+      "durationMin": 10,
+      "focus": ["movement", "balance"],
+      "notes": [
+        "Move at a slow pace first.",
+        "Return to base after each corner."
+      ]
+    },
+    {
+      "name": "Half-court cooperative rally",
+      "durationMin": 10,
+      "focus": ["control", "consistency"],
+      "notes": [
+        "Aim for the longest rally.",
+        "Keep intensity low and stable."
+      ]
+    }
+  ],
+  "coachingNotes": [
+    "Explain the why and how with short, clear cues.",
+    "Correct form during shadow swings before adding the shuttle.",
+    "Rotate players to keep rest intervals comfortable."
+  ],
+  "safety": [
+    "Keep movements smooth; avoid sudden jerks.",
+    "Protect knees during lunges with controlled alignment.",
+    "Adjust rest intervals for adult beginners."
+  ],
+  "equipment": ["Shuttles", "Rackets", "Cones", "Jump rope"],
+  "tags": ["session", "beginner", "injury-prevention"]
+}
