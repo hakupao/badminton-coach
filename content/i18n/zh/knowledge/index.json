@@ -21,24 +21,6 @@
       ]
     },
     {
-      "id": "footwork",
-      "title": "步伐",
-      "summary": "时机、落地与回中。",
-      "items": [
-        {
-          "slug": "split-step-basics",
-          "title": "分腿跳基础",
-          "summary": "触发第一步速度的时机提示。",
-          "tags": [
-            "时机",
-            "落地"
-          ],
-          "accent": "#f4a261",
-          "path": "knowledge/footwork/split-step-basics.json"
-        }
-      ]
-    },
-    {
       "id": "technique",
       "title": "技术",
       "summary": "握拍与击球基础。",
