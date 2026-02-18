@@ -20,6 +20,26 @@ Data-driven static site powered by JSON content.
 ## Content schema
 - See `content/CONTENT_STRUCTURE.md`.
 
+## Content workflow
+- Source of truth is `content/i18n`. Do not edit `public/content/i18n` by hand.
+- Validate content structure, path references, and language parity:
+
+```bash
+python scripts/validate_content.py
+```
+
+- Sync runtime content mirror for static hosting:
+
+```bash
+python scripts/sync_content.py
+```
+
+- Check whether `public/content/i18n` is in sync (useful in CI):
+
+```bash
+python scripts/sync_content.py --check
+```
+
 ## Run locally
 Serve the repository root so `/content/i18n` is accessible.
 

@@ -96,7 +96,7 @@ A proper stretching helps your body transition from high-intensity activity back
 ---
 ---
 
-# 羽毛球las指南：运动后的恢复
+# 羽毛球拉伸指南：运动后的恢复
 
 ## 为什么拉伸很重要
 正确的拉伸可以帮助身体从高强度活动状态平稳过渡到休息状态。它能促进恢复、减少延迟性肌肉酸痛 (DOMS)、防止血液在四肢淤积，并改善长期柔韧性。跳过拉伸可能导致肌肉僵硬、持续酸痛，并增加未来训练中的受伤风险。

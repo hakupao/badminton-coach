@@ -1,0 +1,25 @@
+name: Content Quality
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  content-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate content schema and parity
+        run: python scripts/validate_content.py
+
+      - name: Ensure public mirror is up to date
+        run: python scripts/sync_content.py --check

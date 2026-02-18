@@ -1,5 +1,17 @@
 (() => {
   const baseRoot = document.body.dataset.contentBase || "/content/i18n";
+  const allowedFetchCacheModes = [
+    "default",
+    "force-cache",
+    "no-cache",
+    "no-store",
+    "only-if-cached",
+    "reload"
+  ];
+  const requestedFetchCacheMode = document.body.dataset.fetchCache;
+  const fetchCacheMode = allowedFetchCacheModes.includes(requestedFetchCacheMode)
+    ? requestedFetchCacheMode
+    : "default";
   let contentBase = baseRoot;
   const byId = (id) => document.getElementById(id);
   let revealObserver = null;
@@ -107,9 +119,9 @@
     if (!resolved) {
       throw new Error("Missing JSON path");
     }
-    const response = await fetch(resolved, { cache: "no-store" });
+    const response = await fetch(resolved, { cache: fetchCacheMode });
     if (!response.ok) {
-      throw new Error(`Failed to load ${resolved}`);
+      throw new Error(`Failed to load ${resolved} (HTTP ${response.status})`);
     }
     return response.json();
   };
@@ -196,7 +208,14 @@
       site.highlights.forEach((item, index) => {
         const card = document.createElement("div");
         card.className = "highlight-card";
-        card.innerHTML = `<p>${item.label}</p><h3>${item.value}</h3>`;
+
+        const label = document.createElement("p");
+        label.textContent = item.label || "";
+        const value = document.createElement("h3");
+        value.textContent = item.value || "";
+
+        card.appendChild(label);
+        card.appendChild(value);
         highlightList.appendChild(card);
         applyReveal(card, index * 120);
       });
@@ -438,6 +457,7 @@
       applySiteData(site);
       return site;
     } catch (error) {
+      console.error("Failed to load site data.", error);
       return null;
     }
   };
@@ -451,6 +471,7 @@
       renderCourseCards(courses.items || []);
       renderKnowledgeGroups(knowledge.categories || []);
     } catch (error) {
+      console.error("Failed to initialize home page.", error);
       const list = byId("course-list");
       if (list) {
         renderEmptyState(
@@ -528,6 +549,7 @@
           applyReveal(block, index * 120);
         });
     } catch (error) {
+      console.error(`Failed to initialize course page for slug "${slug}".`, error);
       renderEmptyState(
         sections,
         t("errorCourseLoad", "Unable to load the course."),
@@ -617,6 +639,7 @@
         applyReveal(drillBlock, 240);
       }
     } catch (error) {
+      console.error(`Failed to initialize knowledge page for slug "${slug}".`, error);
       renderEmptyState(
         sections,
         t("errorTopicLoad", "Unable to load the topic."),

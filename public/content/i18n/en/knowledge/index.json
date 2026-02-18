@@ -21,24 +21,6 @@
       ]
     },
     {
-      "id": "footwork",
-      "title": "Footwork",
-      "summary": "Timing, landing, and base recovery.",
-      "items": [
-        {
-          "slug": "split-step-basics",
-          "title": "Split-step basics",
-          "summary": "The timing cue that unlocks faster first steps.",
-          "tags": [
-            "timing",
-            "landing"
-          ],
-          "accent": "#f4a261",
-          "path": "knowledge/footwork/split-step-basics.json"
-        }
-      ]
-    },
-    {
       "id": "technique",
       "title": "Technique",
       "summary": "Grip and stroke fundamentals.",
