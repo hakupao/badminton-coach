@@ -2,7 +2,7 @@
 
 # 羽毛球教练
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&duration=3000&pause=1000&color=F97316&center=true&vCenter=true&width=800&height=80&lines=Badminton+Coach;双语羽毛球教学知识库" alt="Badminton Coach"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&duration=3000&pause=1000&color=F97316&center=true&vCenter=true&width=800&height=80&lines=Badminton+Coach;%E5%8F%8C%E8%AF%AD%E7%BE%BD%E6%AF%9B%E7%90%83%E6%95%99%E5%AD%A6%E7%9F%A5%E8%AF%86%E5%BA%93" alt="Badminton Coach"/>
 
 **[English](README.md) | [中文](README_CN.md)**
 
