@@ -2,21 +2,16 @@
 
 # 羽毛球教练
 
-<svg width="100%" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#ea580c;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  <rect width="800" height="120" fill="url(#headerGrad)"/>
-  <text x="400" y="50" font-size="48" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial">🏸 教练</text>
-  <text x="400" y="85" font-size="20" fill="#fed7aa" text-anchor="middle" font-family="Arial">双语羽毛球教学知识库</text>
-</svg>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&duration=3000&pause=1000&color=F97316&center=true&vCenter=true&width=800&height=80&lines=Badminton+Coach;双语羽毛球教学知识库" alt="Badminton Coach"/>
 
 **[English](README.md) | [中文](README_CN.md)**
 
 [![在线演示](https://img.shields.io/badge/在线演示-badminton.bojiang.org-f97316?logo=globe)](https://badminton.bojiang.org/)
+
+<div align="center">
+  <img src=".github/assets/readme-preview.png" alt="羽毛球教练预览" width="700"/>
+</div>
+
 [![GitHub](https://img.shields.io/badge/GitHub-hakupao-181717?logo=github)](https://github.com/hakupao)
 [![HTML5](https://img.shields.io/badge/HTML5-Latest-e34c26?logo=html5)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-Latest-563d7c?logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -76,44 +71,44 @@
 
 ```mermaid
 graph TB
-    subgraph Frontend["前端层"]
-        HTML["HTML5<br/>(语义化结构)"]
-        CSS["CSS3<br/>(响应式设计)"]
-        JS["Vanilla JS<br/>(交互功能)"]
-    end
+ subgraph Frontend["前端层"]
+ HTML["HTML5<br/>(语义化结构)"]
+ CSS["CSS3<br/>(响应式设计)"]
+ JS["Vanilla JS<br/>(交互功能)"]
+ end
 
-    subgraph Content["内容层"]
-        JSON["JSON<br/>(内容源)"]
-        I18N["i18n 结构<br/>(双语支持)"]
-    end
+ subgraph Content["内容层"]
+ JSON["JSON<br/>(内容源)"]
+ I18N["i18n 结构<br/>(双语支持)"]
+ end
 
-    subgraph Delivery["交付层"]
-        STATIC["静态网站<br/>(HTML 输出)"]
-        CDN["GitHub Pages<br/>(高速 CDN)"]
-    end
+ subgraph Delivery["交付层"]
+ STATIC["静态网站<br/>(HTML 输出)"]
+ CDN["GitHub Pages<br/>(高速 CDN)"]
+ end
 
-    subgraph Quality["质量保证"]
-        CI["GitHub Actions<br/>(CI/CD)"]
-        VALIDATE["内容验证<br/>(Schema 检查)"]
-    end
+ subgraph Quality["质量保证"]
+ CI["GitHub Actions<br/>(CI/CD)"]
+ VALIDATE["内容验证<br/>(Schema 检查)"]
+ end
 
-    HTML --> STATIC
-    CSS --> STATIC
-    JS --> STATIC
-    JSON --> I18N
-    I18N --> STATIC
-    CI --> VALIDATE
-    VALIDATE --> CDN
+ HTML --> STATIC
+ CSS --> STATIC
+ JS --> STATIC
+ JSON --> I18N
+ I18N --> STATIC
+ CI --> VALIDATE
+ VALIDATE --> CDN
 
-    classDef frontend fill:#f97316,stroke:#ea580c,color:#fff
-    classDef content fill:#8b5cf6,stroke:#6d28d9,color:#fff
-    classDef delivery fill:#10b981,stroke:#047857,color:#fff
-    classDef quality fill:#06b6d4,stroke:#0891b2,color:#fff
+ classDef frontend fill:#f97316,stroke:#ea580c,color:#fff
+ classDef content fill:#8b5cf6,stroke:#6d28d9,color:#fff
+ classDef delivery fill:#10b981,stroke:#047857,color:#fff
+ classDef quality fill:#06b6d4,stroke:#0891b2,color:#fff
 
-    class Frontend frontend
-    class Content content
-    class Delivery delivery
-    class Quality quality
+ class Frontend frontend
+ class Content content
+ class Delivery delivery
+ class Quality quality
 ```
 
 ---
@@ -139,7 +134,6 @@ graph TB
 
 简洁的双语首页，提供直观的导航和课程浏览。
 
-![首页](docs/screenshots/home.png)
 
 </details>
 
@@ -148,7 +142,6 @@ graph TB
 
 涵盖基础、技术、战术的完整课程模块。
 
-![课程](docs/screenshots/courses.png)
 
 </details>
 
@@ -157,7 +150,6 @@ graph TB
 
 交互式卡片解释关键概念，包含例子和练习建议。
 
-![知识卡片](docs/screenshots/knowledge-cards.png)
 
 </details>
 
@@ -166,7 +158,6 @@ graph TB
 
 详细的训练计划，包括练习、训练菜单和进度等级。
 
-![训练指南](docs/screenshots/training-guides.png)
 
 </details>
 
@@ -175,7 +166,6 @@ graph TB
 
 结构化进度路线，帮助用户系统地不断提升。
 
-![学习路径](docs/screenshots/learning-paths.png)
 
 </details>
 
@@ -184,7 +174,6 @@ graph TB
 
 英文和中文之间的无缝切换。
 
-![双语](docs/screenshots/bilingual.png)
 
 </details>
 

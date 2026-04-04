@@ -2,17 +2,7 @@
 
 # Badminton Coach
 
-<svg width="100%" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#ea580c;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  <rect width="800" height="120" fill="url(#headerGrad)"/>
-  <text x="400" y="50" font-size="48" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial">🏸 Coach</text>
-  <text x="400" y="85" font-size="20" fill="#fed7aa" text-anchor="middle" font-family="Arial">Bilingual Badminton Coaching Knowledge Base</text>
-</svg>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&duration=3000&pause=1000&color=F97316&center=true&vCenter=true&width=800&height=80&lines=Badminton+Coach;Bilingual+Badminton+Coaching+Knowledge+Base" alt="Badminton Coach"/>
 
 **[English](README.md) | [中文](README_CN.md)**
 
@@ -34,6 +24,11 @@
 Badminton Coach is a comprehensive bilingual badminton coaching notebook and knowledge base. Built as a static website with JSON-first content architecture, it provides structured course materials, interactive knowledge cards, and guided training programs for badminton enthusiasts at all levels.
 
 **Live Demo:** [badminton.bojiang.org](https://badminton.bojiang.org/)
+
+<div align="center">
+  <img src=".github/assets/readme-preview.png" alt="Badminton Coach Preview" width="700"/>
+</div>
+
 
 ---
 
@@ -76,44 +71,44 @@ Badminton Coach is a comprehensive bilingual badminton coaching notebook and kno
 
 ```mermaid
 graph TB
-    subgraph Frontend["Frontend Layer"]
-        HTML["HTML5<br/>(Semantic Structure)"]
-        CSS["CSS3<br/>(Responsive Design)"]
-        JS["Vanilla JS<br/>(Interactivity)"]
-    end
+ subgraph Frontend["Frontend Layer"]
+ HTML["HTML5<br/>(Semantic Structure)"]
+ CSS["CSS3<br/>(Responsive Design)"]
+ JS["Vanilla JS<br/>(Interactivity)"]
+ end
 
-    subgraph Content["Content Layer"]
-        JSON["JSON<br/>(Content Source)"]
-        I18N["i18n Structure<br/>(Bilingual)"]
-    end
+ subgraph Content["Content Layer"]
+ JSON["JSON<br/>(Content Source)"]
+ I18N["i18n Structure<br/>(Bilingual)"]
+ end
 
-    subgraph Delivery["Delivery"]
-        STATIC["Static Site<br/>(HTML output)"]
-        CDN["GitHub Pages<br/>(Fast CDN)"]
-    end
+ subgraph Delivery["Delivery"]
+ STATIC["Static Site<br/>(HTML output)"]
+ CDN["GitHub Pages<br/>(Fast CDN)"]
+ end
 
-    subgraph Quality["Quality Assurance"]
-        CI["GitHub Actions<br/>(CI/CD)"]
-        VALIDATE["Content Validation<br/>(Schema Check)"]
-    end
+ subgraph Quality["Quality Assurance"]
+ CI["GitHub Actions<br/>(CI/CD)"]
+ VALIDATE["Content Validation<br/>(Schema Check)"]
+ end
 
-    HTML --> STATIC
-    CSS --> STATIC
-    JS --> STATIC
-    JSON --> I18N
-    I18N --> STATIC
-    CI --> VALIDATE
-    VALIDATE --> CDN
+ HTML --> STATIC
+ CSS --> STATIC
+ JS --> STATIC
+ JSON --> I18N
+ I18N --> STATIC
+ CI --> VALIDATE
+ VALIDATE --> CDN
 
-    classDef frontend fill:#f97316,stroke:#ea580c,color:#fff
-    classDef content fill:#8b5cf6,stroke:#6d28d9,color:#fff
-    classDef delivery fill:#10b981,stroke:#047857,color:#fff
-    classDef quality fill:#06b6d4,stroke:#0891b2,color:#fff
+ classDef frontend fill:#f97316,stroke:#ea580c,color:#fff
+ classDef content fill:#8b5cf6,stroke:#6d28d9,color:#fff
+ classDef delivery fill:#10b981,stroke:#047857,color:#fff
+ classDef quality fill:#06b6d4,stroke:#0891b2,color:#fff
 
-    class Frontend frontend
-    class Content content
-    class Delivery delivery
-    class Quality quality
+ class Frontend frontend
+ class Content content
+ class Delivery delivery
+ class Quality quality
 ```
 
 ---
@@ -139,7 +134,6 @@ graph TB
 
 Clean, bilingual homepage with intuitive navigation and course browsing.
 
-![Home](docs/screenshots/home.png)
 
 </details>
 
@@ -148,7 +142,6 @@ Clean, bilingual homepage with intuitive navigation and course browsing.
 
 Organized course modules covering fundamentals, techniques, and strategy.
 
-![Courses](docs/screenshots/courses.png)
 
 </details>
 
@@ -157,7 +150,6 @@ Organized course modules covering fundamentals, techniques, and strategy.
 
 Interactive cards explaining key concepts with examples and practice tips.
 
-![Knowledge Cards](docs/screenshots/knowledge-cards.png)
 
 </details>
 
@@ -166,7 +158,6 @@ Interactive cards explaining key concepts with examples and practice tips.
 
 Detailed training programs with exercises, drills, and progression levels.
 
-![Training Guides](docs/screenshots/training-guides.png)
 
 </details>
 
@@ -175,7 +166,6 @@ Detailed training programs with exercises, drills, and progression levels.
 
 Structured progression paths helping users advance systematically.
 
-![Learning Paths](docs/screenshots/learning-paths.png)
 
 </details>
 
@@ -184,7 +174,6 @@ Structured progression paths helping users advance systematically.
 
 Seamless language switching between English and Chinese.
 
-![Bilingual](docs/screenshots/bilingual.png)
 
 </details>
 
