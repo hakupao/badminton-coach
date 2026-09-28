@@ -91,6 +91,52 @@
     });
   };
 
+  // Canonical + hreflang tags. Every variant (/, /?lang=zh, knowledge.html?slug=…)
+  // declares one canonical URL on the custom domain, with an explicit lang, so search
+  // engines stop treating the language/slug variants as duplicates.
+  const SITE_ORIGIN = "https://badminton.bojiang.org";
+  const hreflangCodes = { zh: "zh-Hans", en: "en" };
+
+  const canonicalPath = () => {
+    let path = window.location.pathname.replace(/\.html$/, "");
+    if (path.endsWith("/index")) path = path.slice(0, -"index".length);
+    return path || "/";
+  };
+
+  const canonicalUrlFor = (lang) => {
+    const url = new URL(canonicalPath(), SITE_ORIGIN);
+    const slug = new URLSearchParams(window.location.search).get("slug");
+    if (slug) url.searchParams.set("slug", slug);
+    url.searchParams.set("lang", lang);
+    return url.toString();
+  };
+
+  const setHeadLink = (selector, attrs) => {
+    let link = document.head.querySelector(selector);
+    if (!link) {
+      link = document.createElement("link");
+      document.head.appendChild(link);
+    }
+    Object.entries(attrs).forEach(([key, value]) => link.setAttribute(key, value));
+  };
+
+  const updateCanonicalLinks = () => {
+    setHeadLink('link[rel="canonical"]', { rel: "canonical", href: canonicalUrlFor(currentLang) });
+    supportedLangs.forEach((lang) => {
+      const code = hreflangCodes[lang];
+      setHeadLink(`link[rel="alternate"][hreflang="${code}"]`, {
+        rel: "alternate",
+        hreflang: code,
+        href: canonicalUrlFor(lang)
+      });
+    });
+    setHeadLink('link[rel="alternate"][hreflang="x-default"]', {
+      rel: "alternate",
+      hreflang: "x-default",
+      href: canonicalUrlFor("zh")
+    });
+  };
+
   const updateLanguageToggle = () => {
     document.querySelectorAll("[data-lang-toggle]").forEach((link) => {
       const targetLang = normalizeLang(link.dataset.langToggle) || "en";
@@ -651,6 +697,7 @@
 
   const init = async () => {
     setLanguage(resolveLang());
+    updateCanonicalLinks();
     updateLanguageLinks();
     updateLanguageToggle();
     setupReveal();

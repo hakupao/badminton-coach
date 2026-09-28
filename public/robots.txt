@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://badminton.bojiang.org/sitemap.xml

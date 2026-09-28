@@ -23,3 +23,6 @@ jobs:
 
       - name: Ensure public mirror is up to date
         run: python scripts/sync_content.py --check
+
+      - name: Ensure sitemap is up to date
+        run: python scripts/build_sitemap.py --check
